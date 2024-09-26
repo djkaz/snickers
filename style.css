@@ -1,0 +1,129 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.product-cards {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    align-self: center;
+    justify-content: center;
+    margin: 50px 0;
+}
+
+.product-card {
+    border-color: 1px;
+    border-radius: 5px;
+    width: 20%;
+    margin: 15px;
+    float: left;
+    text-align: center;
+    border-radius: 20px;
+    cursor: pointer;
+    padding-top: 10px;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    margin: 0 auto;
+}
+p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    padding: 5px;
+    color: #b2bec3;
+}
+h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+button {
+    text-align: center;
+    font-size: 24px;
+    color: #fff;
+    width: 100%;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+    /* //border-radius: 25px; */
+}
+
+.checked {
+    color: rgb(255, 196, 2) ;
+}
+
+
+.b1 {
+    background-color: #2183a2;
+    border-radius: 10px;
+}
+
+.b2 {
+    background-color: #3b3e6e;
+    border-radius: 10px;
+}
+
+.b3 {
+    background-color: #0b0b0b;
+    border-radius: 10px;;
+}
+
+.b4 {
+    background-color: #ff9f43;
+    border-radius: 10px;
+}
+
+@media(max-width: 1000px){ 
+    .product-card {
+        width: 45px;
+    }
+}
+
+@media(max-width: 750px) {
+    .content {
+        width: 100%;
+    }
+}
+/* .form-control {
+    background-color: white;
+    color:rgba(0, 0, 0, 0.1);
+    font-size: 14px;
+    border-radius: 2px;
+    box-shadow: none!important;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.contactForm .form-control {
+    border: none;
+    border-bottom: 1px solid black;
+    padding: 0;
+}
+
+.form-control:focus .form-control:active {
+    border-color: #01d28e!important;
+}
+
+.btn-primary {
+    background-color: #01d28e!important;
+    border-color: #01d28e!important;
+    color:white;
+}
+
+.btn-primary:hover {
+    background-color: #28a745!important;
+    
+}
+
+.bi {
+    font-size: 16px;
+    padding: 0;
+}
+
+.col-12 {
+    padding: 20px 0 20px 0!important;
+} */
